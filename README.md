@@ -11,6 +11,5 @@ ii. Strike Rate (Fast Scoring Ability)<br>
 iii. Hard Hitting Ability  IPL<br>
 iv. Running Between wickets<br>
 
-All the above parameter are caluclated and analysed Using Bigdata hadoop based on historical data available from year 2008 (start of IPL Season 1) to 2020 (IPL Season 13). We are cosidering the data since year 2015 to consider Recent IPL form.For batsmen considering who scored more than 200 runs since 2015
-
+All the above parameter are caluclated and analysed Using hadoop MapReduce based on historical data available from year 2008 (start of IPL Season 1) to 2020 (IPL Season 13). We are cosidering the data since year 2015 to consider Recent IPL form.
 
