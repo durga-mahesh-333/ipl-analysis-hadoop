@@ -49,20 +49,21 @@ public class BattingAverageMapper extends Mapper<LongWritable, Text, Text, Text>
 		int runsScored = 0;
 		// cosidering stats since 2015
 		// innings 3 and 4 comes under SUper over
-		if (season > 2015 && innings < 3) {
+		if (season >= 2015 && innings < 3) {
 			String batsman = striker;
 			runsScored = runsInThatDelivery;
 
 			if (!Objects.isNull(batsman) && !batsman.isEmpty() && batsman.equals(dismissedPlayer)
-					&& !dismissalType.equals("retired hurt")) {
+					&& !dismissalType.equalsIgnoreCase("retired hurt") && !dismissalType.equalsIgnoreCase("run out")) {
 				outs = 1;
 			}
 			context.write(new Text(batsman), new Text(runsScored + "-" + outs));
 
-			// below code is for the batsmen who got runout without facing that delivery
-			if (dismissalType.equals("run out") && !batsman.equals(dismissedPlayer)) {
-				context.write(new Text(batsman), new Text(0 + "-" + 1));
+			// below code is for the batsmen who got runout 
+			if (dismissalType.equalsIgnoreCase("run out")) {
+				context.write(new Text(dismissedPlayer), new Text(0 + "-" + 1));
 			}
+		
 		}
 	}
 }
