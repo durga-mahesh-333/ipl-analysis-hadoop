@@ -31,18 +31,11 @@ public class BattingAverageMapper extends Mapper<LongWritable, Text, Text, Text>
 		// super.map(key, value, context);
 		String[] columns = value.toString().split(",");
 		int innings = Integer.parseInt(columns[INNINGS]);
-		float delivery = Float.parseFloat(columns[DELIVERY]);
-		String battingTeam = columns[BATTING_TEAM];
+		
 		String striker = columns[STRIKER];
-		String nonStricker = columns[NON_STRIKER];
-		String bowler = columns[BOWLER];
 		int runsInThatDelivery = Integer.parseInt(columns[RUNS_IN_THAT_DELIEVRY]);
-		int extras = Integer.parseInt(columns[EXTRAS]);
 		String dismissalType = columns[DISMISSAL_TYPE];
 		String dismissedPlayer = columns[DISMISSED_PLAYER];
-		String team1 = columns[TEAM_1];
-		String team2 = columns[TEAM_2];
-		String date = columns[DATE];
 		int season = Integer.parseInt(columns[SEASON]);
 
 		int outs = 0;
@@ -63,7 +56,6 @@ public class BattingAverageMapper extends Mapper<LongWritable, Text, Text, Text>
 			if (dismissalType.equalsIgnoreCase("run out")) {
 				context.write(new Text(dismissedPlayer), new Text(0 + "-" + 1));
 			}
-		
 		}
 	}
 }
