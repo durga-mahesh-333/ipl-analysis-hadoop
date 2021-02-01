@@ -18,3 +18,8 @@ All the above parameter are caluclated and analysed Using <b>Hadoop MapReduce</b
 <b>lib</b> Folder contains libraries required to run programs written in src folder.<br>
 <b>output</b> Folder contains outputs of the data analysed based on the criteria.<br>
 
+Data Source  From <a href="https://cricsheet.org/downloads/#experimental" target="_blank">CricSheet</a>.<br>
+Concept of Analysis From <a href="https://www.firstpost.com/long-reads/ipl-and-big-data-analytics-a-match-made-in-heaven-4438611.html" target="_blank">FirstPost</a></br>
+
+Above Analysis in Spark Core - <a href="https://github.com/durga-mahesh-333/ipl-analysis-spark" target="_blank">ipl-analysis-spark</a>
+
