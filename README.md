@@ -15,5 +15,6 @@ All the above parameter are caluclated and analysed Using <b>Hadoop MapReduce</b
 
 <b>resources</b> Folder contains IPL ball by ball dataSheet.<br>
 <b>src</b> Folder contains MapReduce programs written for analysis of particular parameter.<br>
-<b>lib</b> Folder contains lib required to run programs written in src folder.<br>
+<b>lib</b> Folder contains libraries required to run programs written in src folder.<br>
+<b>output</b> Folder contains outputs of the data analysed based on the criteria.<br>
 
