@@ -16,7 +16,7 @@ All the above parameter are caluclated and analysed Using <b>Hadoop MapReduce</b
 <b>resources</b> Folder contains IPL ball by ball dataSheet.<br>
 <b>src</b> Folder contains MapReduce programs written for analysis of particular parameter.<br>
 <b>lib</b> Folder contains libraries required to run programs written in src folder.<br>
-<b>output</b> Folder contains outputs of the data analysed based on the criteria.<br>
+<b>output</b> Folder contains outputs of the <b>analysed data and details</b> based on the criteria.<br>
 
 Data Source  From <a href="https://cricsheet.org/downloads/#experimental" target="_blank">CricSheet</a>.<br>
 Concept of Analysis From <a href="https://www.firstpost.com/long-reads/ipl-and-big-data-analytics-a-match-made-in-heaven-4438611.html" target="_blank">FirstPost</a></br>
