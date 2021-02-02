@@ -1,7 +1,8 @@
 
 Above folder <b>battingAnalysisOutputs</b> contains analysis output for batting metrics.<br>
 If we have gone through the results , we can get best players in the considered criterias and Teams in IPL will go for those players in auction based on their criteria of selection.<br><br>
-<u><b>Top Ten players in each Category</b></u><br><br>
+<u><b><i>Batting Analysis Results</i></b></u><br><br>
+<b>Top Ten players in each Category</b><br><br>
 <b>Best Batting Average (Consistency):</b>
 <ol type="i">
   <li>DA Warner</li>
