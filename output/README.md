@@ -44,7 +44,6 @@ If we have gone through the results , we can get best players in the considered 
   <li>DR Smith</li>
   <li>JC Buttler</li>
   <li>CA Lynn</li>
-  <li>HH Pandya</li>
  </ol>
   
 
