@@ -1,2 +1,3 @@
-
-Analysis in Progress
+<b> Bowling Average:</b> A player's bowling average is the number of runs they have conceded per wicket taken. The lower the bowling average is, the better the bowler is performing.<br/><br/>
+<b>Bowling Economy:</b> A player's economy rate is the average number of runs they have conceded per over bowled. In most circumstances, the lower the economy rate is, the better the bowler is performing.<br/><br/>
+<b>Bolwing Strike Rate:</b> A player's bowling strike rate is the average number of balls bowled per wicket taken. The lower the strike rate, the more effective a bowler is at taking wickets quickly.
