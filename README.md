@@ -11,12 +11,17 @@ ii. Strike Rate (Fast Scoring Ability)<br>
 iii. Hard Hitting Ability  IPL<br>
 iv. Running Between wickets<br>
 
+Few Parameters to Select Bowler:<br>
+i. Bowling Average(Average Runs conceeded per wicket) <br>
+ii. Bowling Strike Rate(Average Balls bowled per wicket) <br>
+iii. Economy(Average Runs giver per an Over) <br>
+
 All the above parameter are caluclated and analysed Using <b>Hadoop MapReduce</b> based on historical ball by ball data available from year 2008 (start of IPL Season 1) to 2020 (IPL Season 13). 
 
 <b>resources</b> Folder contains IPL ball by ball dataSheet.<br>
-<b>src</b> Folder contains MapReduce programs written for analysis of particular parameter.<br>
+<b>src</b> Folder contains MapReduce programs written for analysis of particular parameter. It has two folders for both batting and bowling parameters. <br>
 <b>lib</b> Folder contains libraries required to run programs written in src folder.<br>
-<b>output</b> Folder contains outputs of the <b>analysed data and details</b> based on the criteria.<br>
+<b>output</b> Folder contains outputs of the <b>analysed data and details</b> based on the criteria. It has two folders for both batting and bowling parameters.  <br>
 
 Data Source  From <a href="https://cricsheet.org/downloads/#experimental" target="_blank">CricSheet</a>.<br>
 Concept of Analysis From <a href="https://www.firstpost.com/long-reads/ipl-and-big-data-analytics-a-match-made-in-heaven-4438611.html" target="_blank">FirstPost</a></br>
