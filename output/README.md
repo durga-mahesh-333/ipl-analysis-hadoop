@@ -1,5 +1,5 @@
 
-Above folder <b>battingAnalysisOutputs</b> contains analysis output for batting metrics and <b>bowlingAnalysisOutputs</b> contains analysis output for Bowling metrics.<br>
+Above folder <b>battingAnalysisOutputs</b> contains analysis output for batting metrics and <b>bowlingAnalysisOutput</b> contains analysis output for Bowling metrics.<br>
 If we have gone through the results , we can get best players in the considered criterias and Teams in IPL will go for those players in auction based on their criteria of selection.<br><br>
 <u><b><i>Batting Analysis Results</i></b></u><br><br>
 <b>Top Ten players in each Category</b><br><br>
