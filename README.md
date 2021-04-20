@@ -26,5 +26,6 @@ All the above parameter are caluclated and analysed Using <b>Hadoop MapReduce</b
 Data Source  From <a href="https://cricsheet.org/downloads/#experimental" target="_blank">CricSheet</a>.<br>
 Concept of Analysis From <a href="https://www.firstpost.com/long-reads/ipl-and-big-data-analytics-a-match-made-in-heaven-4438611.html" target="_blank">FirstPost</a></br>
 
-Above Analysis in Spark Core - <a href="https://github.com/durga-mahesh-333/ipl-analysis-spark" target="_blank">ipl-analysis-spark</a>
+Above Analysis in Spark Core - <a href="https://github.com/durga-mahesh-333/ipl-analysis-spark" target="_blank">ipl-analysis-spark</a><br>
+Above Analysis in Spark Sql - <a href="https://github.com/durga-mahesh-333/ipl-analysis-spark-sql" target="_blank">ipl-analysis-spark-sql</a>
 
